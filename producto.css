@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    background-color: rgb(190, 50, 50);
+    justify-content: space-between;
+  
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo svg {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+  
+  h2#nomempresa {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  nav {
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    background-color: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: rgb(42, 120, 165) !important;
+  }
+.card-img-top {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+.card {
+    margin: 20px;
+}
+#comprar {
+    margin: 20px;
+    background-color: rgb(136, 30, 30);
+    };
+
+.card-group{
+    display:flex;
+    justify-content: center;
+}
+.card-body{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.img-container{
+    margin: 0px auto;
+    width: 300px;
+}
+main{
+    margin-bottom: 50px;
+}
+.card-text, .card-title{
+    text-align: left;
+}
+.card-title{
+    border-bottom: 0.2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}

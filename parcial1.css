@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  background-color: rgb(190, 50, 50);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo svg {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  
+}
+
+h2#nomempresa {
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+  background-color: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(42, 120, 165) !important;
+}
+
+img {
+  width: 350px;
+  height: 400px;
+
+}
+
+.texto {
+  width: 700px;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.carousel-item img{
+  margin: 20px;
+  margin-left: 100px !important;
+  margin-right: 100px !important; 
+}
+#acrouselExample .carousel-control-prev, .carousel-control-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY();
+  width: auto;
+  height: auto;
+}
+.boton{
+  margin-right: 10px;
+}
+footer{
+  text-align: center;
+  margin: 20px;
+}
+.carousel slide{
+  margin-right: 100px;
+
+}
